@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIGNUP</title>
+    <link rel="stylesheet" href="css/signup.css">
+</head>
+<body>
+    <form action="studentsignup.php" method="POST">
+        <h2>Student Signup</h2>
+        <label>NAME</label>
+        <input type="text" name="UNAME" placeholder="USERNAME" autocomplete="off"><BR>
+
+        <label>MOBILE NUMBER</label>
+        <input type="phone" name="NUMBER" placeholder="NUMBER" autocomplete="off"><BR>
+
+        
+        <label>EMALL ADDRESS</label>
+        <input type="email" name="EMAIL" placeholder="EMAIL" autocomplete="off"><BR>
+    
+        
+        <label>COURSE</label>
+        <select id="cars" name="COURSE">
+            <option value="DCOM">DCOM</option>
+            <option value="DCE">DCE</option>
+            
+          </select>
+        
+
+<br>
+        
+        <label>PASSWORD</label>
+        <input type="password" name="PASSWD" placeholder="PASSWORD"><BR>
+            <input type="password" name="confirm_password" placeholder="CONFIRM_PASSWORD"><BR>
+        <button type="submit">Sign up</button>
+
+        
+        </form>
+</body>
+</html>
